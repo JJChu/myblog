@@ -1,7 +1,7 @@
 ---
 title: 学习Vue前的知识储备
 date: 2017-06-03 21:24:34
-description: 阶段
+# description: 阶段
 layout: post
 tags: [Vue, 学习资料]
 categories: 框架和库
