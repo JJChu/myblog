@@ -134,9 +134,9 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: github
-  WeChat: 
-  Weibo: Link
+  GitHub: https://github.com/JJChu
+  WeChat: https://ws1.sinaimg.cn/large/b6d81e13ly1fow7dwvspij20e80e8q2v.jpg
+  Weibo: https://weibo.com/3067616787/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
 
 
 # Social Links Icons
