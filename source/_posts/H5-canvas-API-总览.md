@@ -10,7 +10,7 @@ description: canvas api 总览
 
 ## 什么是 canvas
 
-- HTML5 <canvas> 元素用于图形的绘制，通过脚本 (通常是JavaScript)来完成
+- HTML5 `<canvas>` 元素用于图形的绘制，通过脚本 (通常是JavaScript)来完成；
 - 你可以通过多种方法使用 canvas 绘制路径、矩形、圆、字符以及添加图像
 
 ## 使用 canvas
