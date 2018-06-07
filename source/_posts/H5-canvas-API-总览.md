@@ -248,7 +248,7 @@ if (drawing.getContext){
     + `copy`：后绘制的图形完全替代与之重叠的先绘制的图形
     + `xor`：后绘制的图形与先绘制的图形重叠的部分执行“异或”操作
 
-### 3. WebGL
+### WebGL
 
 对于 webgl 暂时不做讨论
 
