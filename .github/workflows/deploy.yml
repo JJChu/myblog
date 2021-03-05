@@ -28,7 +28,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: install
-        run: npm install
+        run: npm install hexo-cli -g && npm install
 
       # Runs a set of commands using the runners shell
       - name: deploy
