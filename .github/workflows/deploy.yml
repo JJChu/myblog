@@ -35,5 +35,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
+          repository-name: JJChu/JJChu.github.io
           branch: master # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
