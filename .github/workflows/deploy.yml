@@ -32,6 +32,7 @@ jobs:
           npm -v
           sudo npm install hexo-cli -g
           npm install
+          rm -rf public
           hexo g
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
