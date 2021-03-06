@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build-and-deploy:
     # The type of runner that the job will run on
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -28,6 +28,8 @@ jobs:
       
       - name: Install and Build 🔧 
         run: |
+          node -v
+          npm -v
           sudo npm install hexo-cli -g
           npm install
           hexo g
