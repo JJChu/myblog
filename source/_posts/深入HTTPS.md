@@ -170,6 +170,6 @@ HTTPS 利用非对称加密实现身份认证和密钥协商；然后采用对�
 
 ## 参考链接
 
-- [图解 HTTP]()
+- [《图解 HTTP》]()
 - [SSL/TLS协议运行机制的概述](http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html)
 - [深入理解https工作原理](https://mp.weixin.qq.com/s/2DqMuTYYvacH6W0339-cUA)
