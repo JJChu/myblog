@@ -24,3 +24,4 @@ hexo d --g
 hexo g # hexo generate
 hexo d # hexo deploy
 ```
+现已支持通过 github action 自动部署到 github pages。只需提交代码便可自动编译部署
