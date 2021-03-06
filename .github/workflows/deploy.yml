@@ -26,13 +26,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      
       - name: Install and Build 🔧 
         run: |
-          node -v
-          npm -v
           sudo npm install hexo-cli -g
           npm install
-          rm -rf public
           hexo g
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
